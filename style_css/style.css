@@ -29,6 +29,7 @@ li{
 .container{
   max-width: 1400px;
   margin: 0 auto;
+  
 }
 .text-orang{
   color: var(--primary);
@@ -86,5 +87,51 @@ li{
   padding: 10px 14px;
 }
 
+/* hero-section */
+.hero-section{
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.hero-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-contant{
+  max-width: 714px;
+}
+.hero-contant h6{
+  font-weight: 600;
+  font-size: 22px;
+}
+.hero-contant h5{
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 32px;
+}
+.hero-contant h1{
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.hero-contant h1 span{
+  display: block;
+  text-align: right;
+}
+.hero-contnet p {
+  margin-top: 28px;
+  margin-bottom: 22px;
+}
 
+.hero-img {
+  text-align: center;
+}
 
+.hero-icon{
+  margin-top: 36px;
+}
+.hero-icon ul{
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
