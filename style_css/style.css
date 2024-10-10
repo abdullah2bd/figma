@@ -138,7 +138,7 @@ li{
   justify-content: center;
   gap: 26px;
 }
-
+/* about section */
 .about-section{
   display: flex;
   justify-content: space-between;
@@ -149,7 +149,7 @@ li{
 .about-contant{
   padding: 54px 0 72px 0;
 }
-.about-contant h2{
+.about-section h2{
   font-size: 65px;
   font-weight: 700;
  
@@ -162,8 +162,6 @@ li{
 
 .about-skill{
   height: 76px;
-  width: 753px;
-  height: 449px;
   width: 753px;
   align-items: center;
 }
@@ -199,7 +197,27 @@ li{
   width: 32px;
   left: 80%;
   top: 50%;
-  transform: translate(-20px -50%);
+  transform: translate(-20px, -50%);
   z-index: 1;
+}
+.skill-tow::after{
+  width: 75%;
+}
+.skill-tow::before{
+  left: 75%;
+}
+
+
+.skill-three::after{
+  width: 85%;
+}
+.skill-three::before{
+  left: 85%;
+
+}
+
+/* .service-section */
+.service-section{
+ padding-bottom: 120px;
 }
 
