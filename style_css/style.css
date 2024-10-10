@@ -4,7 +4,8 @@
   --text-white: #FFFFFF;
   --gray: #EDECEC;
   --gray-deep: #F8F8F8;
-
+  --gray-black:  #797979;
+  
 
 }
 
@@ -279,4 +280,125 @@ li{
 .project-items h6{
   font-size: 24px;
   font-weight: 900;
+}
+
+
+/* testimoials */
+.testimonials{
+  padding: 70px 0;
+}
+.testimonial{
+  display: flex;
+  height: 344px;
+  width: 1087px;
+  padding: 55px 77px 53px 44px;
+  background-color: var(--gray-deep);
+  border-radius: 14px;
+  text-align: justify;
+  gap: 30px;
+  margin: 0 auto;
+}
+.testimonials-contant p{
+  position: relative;
+}
+.testimonials-contant span{
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--primary);
+  position: absolute;
+
+ 
+}
+.testimonials-contant p span:first-child{
+  top: -18px;
+  left: -2%;
+}
+.testimonials-contant p span:last-child{
+  bottom: -25%;
+}
+.testimonials-contant h5{
+  font-size: 24px;
+  font-weight: 600;
+  padding: 12px 0;
+}
+.testimonials-contant h6{
+  font-size: 19px;
+}
+
+
+/* news letter form section start */
+.send-section{
+  margin: 0 auto;
+  padding: 70px;
+}
+.send-btn{
+ display: flex;
+ width: 100%;
+ gap: 25px;
+ justify-content: center;
+ margin-top: 48px;
+}
+.send-btn .send-btn-text{
+  padding: 22px 26px 21px 26px;
+  width: 627px;
+  height: 75px  ;
+  border-radius: 14px;
+  font-size: 21px;
+  font-weight: 500;
+  outline: none;
+}
+.send-btn input[type="text"]::placeholder{
+  font-size: 21px;
+  color: var(--gray-black) ;
+  font-weight: 600;
+}
+/*  news letter form section end */
+/* foter */
+.foter{
+  background-color: var(--gray-deep);
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 88px;
+}
+
+.foter .foter-img{
+  width: 242px;
+  margin: 0 auto;
+  display: block;
+}
+
+.foter-nav ul{
+display: flex;
+gap: 12px;
+justify-content: center;
+align-items: center;
+}
+
+.header-nav ul li a{
+padding: 10px 14px;
+}
+
+.foter-icon{
+  margin-top: 36px;
+}
+.foter-icon ul{
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+
+.copy-right{
+  background-color: #545454;
+  height: 84px;
+  width: 100%;
+  padding: 26px;
+}
+.copy-right p{
+ text-align: center;
+ color: var(--text-white);
+}
+.copy-right a{
+  color: var(--primary);
+
 }
