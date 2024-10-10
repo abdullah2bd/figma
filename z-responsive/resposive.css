@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .header-contant
+    {
+    eader-contant
+    
+    display: block;
+    
+  }
+   
+  .eader-contant .logo{
+    width: 40%;
+  }
+   .header-nav{
+    display: block;
+   } 
+}
