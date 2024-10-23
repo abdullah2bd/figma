@@ -166,14 +166,33 @@ color: var(--text-white);
   justify-content: center;
   gap: 26px;
 }
-.hero-icon-dark ul{
+.hero-icon-dark{
   display: none;
 }
 
-.dark .hero-icon-dark ul {
+
+
+
+
+
+
+
+
+
+
+.dark .hero-icon-dark{
   display: block;
-  /* display: flex; */
 }
+
+
+
+
+
+
+
+
+
+
 
 /* about section */
 .about-section{
